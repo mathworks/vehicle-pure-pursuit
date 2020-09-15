@@ -16,7 +16,7 @@ yRef = -refPose(:,2);
 %% define reference time for plotting 
 Ts = 45.8; % simulation time
 s = size(xRef);
-tRef = (linspace(0,Ts,s(1)))'; % this time variable is used in the "2D Visulaization" for plotting the refernce points
+tRef = (linspace(0,Ts,s(1)))'; % this time variable is used in the "2D Visualization" block for plotting the reference points.
 
 %% define parameters used in the models
 L = 3; % bicycle length
