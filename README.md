@@ -30,12 +30,19 @@ It contains a model to drive the vehicle through the US City scene.
 
 PRODUCT REQUIREMENTS:
 
-The models use the following MathWorks products, all from R22020a release:
+The models use the following MathWorks products, all from R2020a release:
 1)MATLAB
 2)Simulink
 3)Vehicle Dynamics Blockset
 4)Automated Driving Toolbox
 5)Navigation Toolbox
+
+6)Aerospace Blockset 
+7)Aerospace Toolbox
+Note: The Aerospace Blockset and Aerospace Toolbox are only required for the "purePursuitUSCity" model to convert from rad/s to degree/s.
+In case of the absence of these two toolboxes, define the conversion factor from rad/s to degree/s using a gain block and use the model. 
+
+
 
 Minimum Hardware Requirements for Running Models in 3D Simulation Environment:
 
